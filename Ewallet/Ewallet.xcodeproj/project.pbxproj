@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD53A37D24082E2A00D6F130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD53A37C24082E2A00D6F130 /* AppDelegate.swift */; };
+		AD53A37F24082E2A00D6F130 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD53A37E24082E2A00D6F130 /* SceneDelegate.swift */; };
+		AD53A38124082E2A00D6F130 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD53A38024082E2A00D6F130 /* ContentView.swift */; };
+		AD53A38324082E2B00D6F130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD53A38224082E2B00D6F130 /* Assets.xcassets */; };
+		AD53A38624082E2B00D6F130 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD53A38524082E2B00D6F130 /* Preview Assets.xcassets */; };
+		AD53A38924082E2B00D6F130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD53A38724082E2B00D6F130 /* LaunchScreen.storyboard */; };
+		AD53A39424082E2B00D6F130 /* EwalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD53A39324082E2B00D6F130 /* EwalletTests.swift */; };
+		AD53A39F24082E2B00D6F130 /* EwalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD53A39E24082E2B00D6F130 /* EwalletUITests.swift */; };
+		DF04DC29250F3D23005317E0 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF04DC28250F3D23005317E0 /* Contacts.swift */; };
+		DF04DC2B250F426E005317E0 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF04DC2A250F426E005317E0 /* ContactsView.swift */; };
+		DF4AFA00250757FF00CB22D8 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4AF9FF250757FF00CB22D8 /* Profile.swift */; };
+		DFD4481E25075F0A00CF8897 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = DFD4481D25075F0A00CF8897 /* CodeScanner */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD53A39024082E2B00D6F130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD53A37124082E2A00D6F130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD53A37824082E2A00D6F130;
+			remoteInfo = Ewallet;
+		};
+		AD53A39B24082E2B00D6F130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD53A37124082E2A00D6F130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD53A37824082E2A00D6F130;
+			remoteInfo = Ewallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD53A37924082E2A00D6F130 /* Ewallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ewallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD53A37C24082E2A00D6F130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD53A37E24082E2A00D6F130 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD53A38024082E2A00D6F130 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD53A38224082E2B00D6F130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD53A38524082E2B00D6F130 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD53A38824082E2B00D6F130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD53A38A24082E2B00D6F130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD53A38F24082E2B00D6F130 /* EwalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EwalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD53A39324082E2B00D6F130 /* EwalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EwalletTests.swift; sourceTree = "<group>"; };
+		AD53A39524082E2B00D6F130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD53A39A24082E2B00D6F130 /* EwalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EwalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD53A39E24082E2B00D6F130 /* EwalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EwalletUITests.swift; sourceTree = "<group>"; };
+		AD53A3A024082E2B00D6F130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF04DC28250F3D23005317E0 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		DF04DC2A250F426E005317E0 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		DF4AF9FF250757FF00CB22D8 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD53A37624082E2A00D6F130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD4481E25075F0A00CF8897 /* CodeScanner in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD53A38C24082E2B00D6F130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD53A39724082E2B00D6F130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD53A37024082E2A00D6F130 = {
+			isa = PBXGroup;
+			children = (
+				AD53A37B24082E2A00D6F130 /* Ewallet */,
+				AD53A39224082E2B00D6F130 /* EwalletTests */,
+				AD53A39D24082E2B00D6F130 /* EwalletUITests */,
+				AD53A37A24082E2A00D6F130 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD53A37A24082E2A00D6F130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD53A37924082E2A00D6F130 /* Ewallet.app */,
+				AD53A38F24082E2B00D6F130 /* EwalletTests.xctest */,
+				AD53A39A24082E2B00D6F130 /* EwalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD53A37B24082E2A00D6F130 /* Ewallet */ = {
+			isa = PBXGroup;
+			children = (
+				AD53A37C24082E2A00D6F130 /* AppDelegate.swift */,
+				AD53A37E24082E2A00D6F130 /* SceneDelegate.swift */,
+				AD53A38024082E2A00D6F130 /* ContentView.swift */,
+				DF04DC28250F3D23005317E0 /* Contacts.swift */,
+				DF04DC2A250F426E005317E0 /* ContactsView.swift */,
+				AD53A38224082E2B00D6F130 /* Assets.xcassets */,
+				AD53A38724082E2B00D6F130 /* LaunchScreen.storyboard */,
+				DF4AF9FF250757FF00CB22D8 /* Profile.swift */,
+				AD53A38A24082E2B00D6F130 /* Info.plist */,
+				AD53A38424082E2B00D6F130 /* Preview Content */,
+			);
+			path = Ewallet;
+			sourceTree = "<group>";
+		};
+		AD53A38424082E2B00D6F130 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD53A38524082E2B00D6F130 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD53A39224082E2B00D6F130 /* EwalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD53A39324082E2B00D6F130 /* EwalletTests.swift */,
+				AD53A39524082E2B00D6F130 /* Info.plist */,
+			);
+			path = EwalletTests;
+			sourceTree = "<group>";
+		};
+		AD53A39D24082E2B00D6F130 /* EwalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD53A39E24082E2B00D6F130 /* EwalletUITests.swift */,
+				AD53A3A024082E2B00D6F130 /* Info.plist */,
+			);
+			path = EwalletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD53A37824082E2A00D6F130 /* Ewallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD53A3A324082E2B00D6F130 /* Build configuration list for PBXNativeTarget "Ewallet" */;
+			buildPhases = (
+				AD53A37524082E2A00D6F130 /* Sources */,
+				AD53A37624082E2A00D6F130 /* Frameworks */,
+				AD53A37724082E2A00D6F130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ewallet;
+			packageProductDependencies = (
+				DFD4481D25075F0A00CF8897 /* CodeScanner */,
+			);
+			productName = Ewallet;
+			productReference = AD53A37924082E2A00D6F130 /* Ewallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD53A38E24082E2B00D6F130 /* EwalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD53A3A624082E2B00D6F130 /* Build configuration list for PBXNativeTarget "EwalletTests" */;
+			buildPhases = (
+				AD53A38B24082E2B00D6F130 /* Sources */,
+				AD53A38C24082E2B00D6F130 /* Frameworks */,
+				AD53A38D24082E2B00D6F130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD53A39124082E2B00D6F130 /* PBXTargetDependency */,
+			);
+			name = EwalletTests;
+			productName = EwalletTests;
+			productReference = AD53A38F24082E2B00D6F130 /* EwalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD53A39924082E2B00D6F130 /* EwalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD53A3A924082E2B00D6F130 /* Build configuration list for PBXNativeTarget "EwalletUITests" */;
+			buildPhases = (
+				AD53A39624082E2B00D6F130 /* Sources */,
+				AD53A39724082E2B00D6F130 /* Frameworks */,
+				AD53A39824082E2B00D6F130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD53A39C24082E2B00D6F130 /* PBXTargetDependency */,
+			);
+			name = EwalletUITests;
+			productName = EwalletUITests;
+			productReference = AD53A39A24082E2B00D6F130 /* EwalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD53A37124082E2A00D6F130 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Balaji;
+				TargetAttributes = {
+					AD53A37824082E2A00D6F130 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					AD53A38E24082E2B00D6F130 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = AD53A37824082E2A00D6F130;
+					};
+					AD53A39924082E2B00D6F130 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = AD53A37824082E2A00D6F130;
+					};
+				};
+			};
+			buildConfigurationList = AD53A37424082E2A00D6F130 /* Build configuration list for PBXProject "Ewallet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD53A37024082E2A00D6F130;
+			packageReferences = (
+				DFD4481C25075F0A00CF8897 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
+			productRefGroup = AD53A37A24082E2A00D6F130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD53A37824082E2A00D6F130 /* Ewallet */,
+				AD53A38E24082E2B00D6F130 /* EwalletTests */,
+				AD53A39924082E2B00D6F130 /* EwalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD53A37724082E2A00D6F130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD53A38924082E2B00D6F130 /* LaunchScreen.storyboard in Resources */,
+				AD53A38624082E2B00D6F130 /* Preview Assets.xcassets in Resources */,
+				AD53A38324082E2B00D6F130 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD53A38D24082E2B00D6F130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD53A39824082E2B00D6F130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD53A37524082E2A00D6F130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD53A37D24082E2A00D6F130 /* AppDelegate.swift in Sources */,
+				DF4AFA00250757FF00CB22D8 /* Profile.swift in Sources */,
+				AD53A37F24082E2A00D6F130 /* SceneDelegate.swift in Sources */,
+				DF04DC2B250F426E005317E0 /* ContactsView.swift in Sources */,
+				AD53A38124082E2A00D6F130 /* ContentView.swift in Sources */,
+				DF04DC29250F3D23005317E0 /* Contacts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD53A38B24082E2B00D6F130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD53A39424082E2B00D6F130 /* EwalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD53A39624082E2B00D6F130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD53A39F24082E2B00D6F130 /* EwalletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD53A39124082E2B00D6F130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD53A37824082E2A00D6F130 /* Ewallet */;
+			targetProxy = AD53A39024082E2B00D6F130 /* PBXContainerItemProxy */;
+		};
+		AD53A39C24082E2B00D6F130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD53A37824082E2A00D6F130 /* Ewallet */;
+			targetProxy = AD53A39B24082E2B00D6F130 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD53A38724082E2B00D6F130 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD53A38824082E2B00D6F130 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD53A3A124082E2B00D6F130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD53A3A224082E2B00D6F130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD53A3A424082E2B00D6F130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ewallet/Preview Content\"";
+				DEVELOPMENT_TEAM = SXZS62F79U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Ewallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ewal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD53A3A524082E2B00D6F130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ewallet/Preview Content\"";
+				DEVELOPMENT_TEAM = SXZS62F79U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Ewallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ewal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD53A3A724082E2B00D6F130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EwalletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kavsoft.EwalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ewallet.app/Ewallet";
+			};
+			name = Debug;
+		};
+		AD53A3A824082E2B00D6F130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EwalletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kavsoft.EwalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ewallet.app/Ewallet";
+			};
+			name = Release;
+		};
+		AD53A3AA24082E2B00D6F130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EwalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kavsoft.EwalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ewallet;
+			};
+			name = Debug;
+		};
+		AD53A3AB24082E2B00D6F130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EwalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kavsoft.EwalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ewallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD53A37424082E2A00D6F130 /* Build configuration list for PBXProject "Ewallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD53A3A124082E2B00D6F130 /* Debug */,
+				AD53A3A224082E2B00D6F130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD53A3A324082E2B00D6F130 /* Build configuration list for PBXNativeTarget "Ewallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD53A3A424082E2B00D6F130 /* Debug */,
+				AD53A3A524082E2B00D6F130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD53A3A624082E2B00D6F130 /* Build configuration list for PBXNativeTarget "EwalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD53A3A724082E2B00D6F130 /* Debug */,
+				AD53A3A824082E2B00D6F130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD53A3A924082E2B00D6F130 /* Build configuration list for PBXNativeTarget "EwalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD53A3AA24082E2B00D6F130 /* Debug */,
+				AD53A3AB24082E2B00D6F130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DFD4481C25075F0A00CF8897 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DFD4481D25075F0A00CF8897 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DFD4481C25075F0A00CF8897 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AD53A37124082E2A00D6F130 /* Project object */;
+}
